@@ -35,7 +35,7 @@ Rayfield:Notify({
 },
 })
 if game.PlaceId == 5154858502 then
-   local MainMVS = Window:CreateTab("Ayost Hub - "..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name, 4483362458)
+   local MainMVS = Window:CreateTab(game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name, 4483362458)
    local Sheriff = MainMVS:CreateSection("Silent Aim")
    local SheriffSilentAim = MainMVS:CreateButton({
       Name = "Sheriff",
