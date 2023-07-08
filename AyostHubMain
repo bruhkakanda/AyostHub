@@ -186,7 +186,7 @@ if game.PlaceId == 5154858502 then
 elseif game.PlaceId == 142823291 then
     local MM2 = Window:CreateTab(game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name, 4483362458)
     local Load = MM2:CreateSection("Load")
-    local SheriffSilentAim = MainMVS:CreateButton({
+    local SheriffSilentAim = MM2:CreateButton({
         Name = "Esp = B, SilentAim = G, Boost = V, Notify Roles = C",
         Callback = function()
             -- // Constants \\ --
