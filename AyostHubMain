@@ -121,7 +121,7 @@ if game.PlaceId == 5154858502 then
        local SinlentAimRange = 80
        
        local Circle = Drawing.new("Circle")
-       Circle.Radius = 120
+       Circle.Radius = 500
        Circle.Visible = true
        Circle.Color = Color3.new(1,1,1)
        Circle.Thickness = 2
