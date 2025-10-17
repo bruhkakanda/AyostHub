@@ -45,10 +45,10 @@ if game.PlaceId == 5154858502 then
          local Players = game:GetService("Players")
          local RunService = game:GetService("RunService")
          
-         local SinlentAimRange = 50
+         local SinlentAimRange = 80
          
          local Circle = Drawing.new("Circle")
-         Circle.Radius = 70
+         Circle.Radius = 120
          Circle.Visible = true
          Circle.Color = Color3.new(1,1,1)
          Circle.Thickness = 2
@@ -118,10 +118,10 @@ if game.PlaceId == 5154858502 then
        local Players = game:GetService("Players")
        local RunService = game:GetService("RunService")
        
-       local SinlentAimRange = 50
+       local SinlentAimRange = 80
        
        local Circle = Drawing.new("Circle")
-       Circle.Radius = 70
+       Circle.Radius = 120
        Circle.Visible = true
        Circle.Color = Color3.new(1,1,1)
        Circle.Thickness = 2
