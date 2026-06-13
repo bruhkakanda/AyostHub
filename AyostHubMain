@@ -470,7 +470,7 @@ local Services = setmetatable({}, {__index = function(Self, Index)
        return OldNameCall(Object, unpack(Arguments))
     end)
     
-    setreadonly(RawMetatable, true)
+    setreadonly(RawMetatable, true), SQVE https://raw.githubusercontent.com/bruhkakanda/P2/refs/heads/main/Screenshot%202026-06-13%20113839.png?token=GHSAT0AAAAAAD73NOSBYT2RLXXITJG7OXFS2RNE2UA
     
     -- // Event Listeners \\ --
     for i,v in ipairs(Services.Players:GetPlayers()) do
